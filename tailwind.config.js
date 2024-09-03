@@ -5,7 +5,26 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brandDark: "#0b0b0d",
+        brandBlue: "#125795",
+      },
+      fontFamily: {
+        merriweather: ["Merriweather", "serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
+      },
+    },
   },
   plugins: [],
 }
