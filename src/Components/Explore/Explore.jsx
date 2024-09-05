@@ -40,7 +40,7 @@ const Explore = () => {
             <motion.div initial={{ opacity: 0 }} animate={{opacity: 1 }} transition={{ duration: 2, delay: 0.2 }} className="text-center md:max-w-[650px] mx-auto space-y-4">
                 <p className="text-3xl">Explore the world</p>
                 <p>
-                    We llok to provide the most authentic content from athletes,
+                    We look to provide the most authentic content from athletes,
                     adventures, explores travelers autound the world. Our long them
                     mission is to educate inspire and enuble all peoples to experience
                     protect wildeness

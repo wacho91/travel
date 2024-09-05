@@ -1,5 +1,6 @@
 import Explore from "./Components/Explore/Explore"
 import Hero from "./Components/Hero/Hero"
+import Juornal from "./Components/Journal/Juornal"
 import Navbar from "./Components/Navbar/Navbar"
 import HeroImg from "./assets/hero.jpg"
 
@@ -21,6 +22,7 @@ function App() {
         <Navbar />
         <Hero />
         <Explore />
+        <Juornal />
       </div>
     </div>
   )
