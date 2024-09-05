@@ -1,3 +1,4 @@
+import Explore from "./Components/Explore/Explore"
 import Hero from "./Components/Hero/Hero"
 import Navbar from "./Components/Navbar/Navbar"
 import HeroImg from "./assets/hero.jpg"
@@ -19,6 +20,7 @@ function App() {
       <div style={bgimage}>
         <Navbar />
         <Hero />
+        <Explore />
       </div>
     </div>
   )
