@@ -68,6 +68,8 @@ const Juornal = () => {
                 ))
             }
         </div>
+        {/*Button Section*/}
+        <button className="block mx-auto mt-6 text-brandBlue uppercase font-bold">All Post</button>
     </section>
   )
 }

@@ -1,4 +1,5 @@
 import Explore from "./Components/Explore/Explore"
+import Footer from "./Components/Footer/Footer"
 import Hero from "./Components/Hero/Hero"
 import Juornal from "./Components/Journal/Juornal"
 import Navbar from "./Components/Navbar/Navbar"
@@ -23,6 +24,7 @@ function App() {
         <Hero />
         <Explore />
         <Juornal />
+        <Footer />
       </div>
     </div>
   )
