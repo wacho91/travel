@@ -1,6 +1,6 @@
 
 import Logo from "../../assets/logo.png"
-import { SlideBottom } from "../../utility/animation";
+import { SlideBottom } from "../../Utility/animation";
 import { motion } from "framer-motion";
 const Navbar = () => {
   return (

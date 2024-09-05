@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion"
-import { SlideUp } from "../../utility/animation"
+import { SlideUp } from "../../Utility/animation"
 import Img1 from "../../assets/1.jpg"
 import Img2 from "../../assets/2.jpg"
 import Img3 from "../../assets/3.jpg"
