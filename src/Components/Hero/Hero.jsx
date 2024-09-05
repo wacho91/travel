@@ -6,7 +6,14 @@ const Hero = () => {
     <>
         <section className="min-h-[500px] flex justify-center items-center">
             {/*Radial Gradient Section*/}
-            <div></div>
+            <div className="absolute inset-0 bg-gradient-radial from-transparent via-black/50 to-black z-10" 
+                style={{
+                    background: 
+                        "radial-gradient(circle, rgba(0,0,0,0.3) 50%, rgba(11,11,13,0.5) 70%, rgba(11,11,13,0.8) 90%)"
+                }}
+            >
+
+            </div>
 
             {/*Hero Text Section*/}
             <div className="container relative z-20 text-center space-y-8">
